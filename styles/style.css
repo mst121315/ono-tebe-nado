@@ -37,6 +37,11 @@ address {
     list-style-type: circle;
 }
 
+.list-item-no-bullit a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .list-item-no-bullit {
     text-decoration: none;
     list-style-type: none;
@@ -116,7 +121,7 @@ h1 {
     line-height: 120px;
 }
 
-.letter-one {
+.letter {
     letter-spacing: 61px;
 }
 
@@ -143,7 +148,7 @@ h1 {
 
 .cover__description-text {
     font-size: 22px;
-    text-transform: uppercase;
+    font-weight: 400;
     word-spacing: 19px;
 }
 
@@ -161,14 +166,21 @@ h1 {
 
 h2 {
     font-size: 50px;
+    text-transform: uppercase;
 }
 
 .lots__heading {
-    padding: 168px 0px 26px 65px;
+    padding: 178px 0px 26px 65px;
 }
 
 .card {
     box-sizing: border-box;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .lots__card-list {
@@ -177,6 +189,7 @@ h2 {
     grid-template-columns: repeat(3, 334px);
     grid-template-rows: 563px;
     column-gap: 25px;
+    row-gap: 25px;
     list-style-type: none;
 }
 
@@ -229,7 +242,7 @@ h2 {
     color: black;
     font-size: 20px;
     padding-left: 64px;
-    padding-top: 31px;
+    padding-top: 34px;
     padding-bottom: 121px;
 }
 
@@ -240,7 +253,7 @@ h2 {
     grid-template-columns: 337px 1fr;
     grid-template-rows: 595px;
     column-gap: 21px;
-    padding: 63px 25px 50px 25px;
+    padding: 61px 25px 50px 25px;
 }
 
 .about__logo {
@@ -266,13 +279,12 @@ width: 149px;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: bolder;
+    padding-bottom: 77px;
 }
 
 .about__text {
     font-size: 20px;
-    padding-top: 99px;
-    display: grid;
-    row-gap: 25px;
+    padding-top: 23px;
 }
 
 .footer {
@@ -291,6 +303,10 @@ width: 149px;
 .footer__address p {
     margin: 0;
     line-height: 24px;
+}
+
+.footer__menu {
+    padding-top: 4px;
 }
 
 .footer__menu-list {
