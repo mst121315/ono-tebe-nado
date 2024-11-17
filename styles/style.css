@@ -38,7 +38,7 @@ address {
     list-style-type: circle;
 }
 
-.header__links_list a {
+.header__link_active {
     text-decoration: none;
 }
 
@@ -341,6 +341,10 @@ h3 {
 
 .footer__menu-list-item {
     text-decoration: underline;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
 }
 
 .footer__social-list-item {
